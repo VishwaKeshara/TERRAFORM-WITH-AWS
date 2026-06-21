@@ -34,7 +34,7 @@ resource "aws_route_table_association" "rta1" {
   route_table_id = aws_route_table.RT.id
 }
 
-resource "aws_route_table_association" "rta1" {
+resource "aws_route_table_association" "rta2" {
   subnet_id      = aws_subnet.sub2.id
   route_table_id = aws_route_table.RT.id
 }
