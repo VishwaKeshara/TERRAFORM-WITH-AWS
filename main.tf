@@ -73,3 +73,7 @@ resource "aws_security_group" "web-sg" {
   }
 }
 
+resource "aws_s3_bucket" "example" {
+  bucket = "vishwaterraform2026project"
+
+}
