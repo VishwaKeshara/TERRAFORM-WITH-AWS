@@ -1,4 +1,4 @@
-# TerraformAC
+# Terraform
 
 This repository contains a Terraform project that provisions a simple AWS application network with two EC2 web server instances behind an Application Load Balancer.
 
